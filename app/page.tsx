@@ -103,9 +103,9 @@ export default function Home() {
         </h2>
 
         <div className="flex justify-center gap-6 text-gray-400">
-          <a href="https://github.com">GitHub</a>
-          <a href="https://linkedin.com">LinkedIn</a>
-          <a href="mailto:your@email.com">Email</a>
+          <a href="https://github.com/nitishdubey1194">GitHub</a>
+          <a href="https://in.linkedin.com/in/nitishdubey1194">LinkedIn</a>
+          <a href="mailto: nitishdubey1194@gmail.com">Email</a>
         </div>
       </section>
 
