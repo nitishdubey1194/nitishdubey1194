@@ -125,27 +125,6 @@ export default function Home() {
                 {project.tech}
               </p>
 
-              <div className="flex gap-4">
-
-                {project.github && (
-                  <a
-                    href={project.github}
-                    className="text-sm bg-gray-800 px-3 py-1 rounded"
-                  >
-                    GitHub
-                  </a>
-                )}
-
-                {project.demo && (
-                  <a
-                    href={project.demo}
-                    className="text-sm border border-gray-700 px-3 py-1 rounded"
-                  >
-                    Live
-                  </a>
-                )}
-
-              </div>
 
             </div>
           ))}
