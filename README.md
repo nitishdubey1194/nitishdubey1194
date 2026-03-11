@@ -20,7 +20,7 @@ I enjoy working with:
 ## 🚀 What I'm Working On
 
 * Building **AI powered data processing tools**
-* Developing **Next.js applications**
+* Developing **Next.js, Mobile applications**
 * Experimenting with **LLMs and local models using Ollama**
 * Creating **automation scripts and APIs**
 
@@ -30,7 +30,7 @@ I enjoy working with:
 
 **Programming**
 
-Python • JavaScript • PHP • SQL
+Python • JavaScript • Typescript • PHP • SQL
 
 **AI / ML**
 
@@ -38,27 +38,31 @@ Machine Learning • Data Cleaning • Prompt Engineering • LLM Applications
 
 **Web Development**
 
-HTML • CSS • Next.js • Node.js • REST APIs
+HTML • CSS • Next.js • Node.js • REST APIs • PHP • React-native • SUPABASE • SHOPIFY • FIREBASE • RAZORPAY • STRIPE 
 
 **Tools**
 
-Git • Linux • Docker • Vercel
+Git • Linux • Docker • Vercel • Jira • Slack • Bitbucket • Trello
 
 ---
 
 ## 📚 Projects
 
-### 🔹 AI Data Cleaning Tool
-
-A system that cleans messy CRM data using AI prompts and normalization techniques.
-
 ### 🔹 Personalized Allergy Tracker
 
-A system that tracks allergies and sends personalized notifications.
+A system that tracks allergies and sends personalized notifications based on user health data and environmental triggers.
 
 ### 🔹 E-commerce Platform
 
-Full-stack shopping platform with cart management and order system.
+A full-stack shopping platform with product listings, cart management, secure checkout, and order management features.
+
+### 🔹 Treasury & Single Window
+
+Worked on government digital platforms including the Single Window Portal for streamlined business approvals and treasury-related systems. Contributed to development, integration, and maintenance of services used for government approvals and financial workflows.
+
+### 🔹 Aurora Jewellery Shopify Store
+
+Developed and customized a Shopify-based e-commerce store for a jewellery brand, including theme customization, product management, payment integration, and responsive design optimization.
 
 ---
 
