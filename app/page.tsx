@@ -2,19 +2,29 @@ export default function Home() {
 
   const projects = [
     {
-      title: "Allergy Prediction AI",
-      desc: "Machine learning model predicting allergy triggers from symptoms.",
-      tech: "Python • ML • API"
+      title: "Personalized Allergy Tracker",
+      desc: "AI-powered system that tracks user allergies and sends notifications based on symptoms and environmental triggers.",
+      tech: "Nextjs • Openai • Supabase • Vercel"
     },
     {
       title: "AI Chatbot",
-      desc: "Local LLM chatbot using Ollama and API integration.",
-      tech: "LLM • Node.js • AI"
+      desc: "Local LLM chatbot using Ollama with API integrations for intelligent conversations.",
+      tech: "Python • Langchain • Ollama • Streamlit"
     },
     {
-      title: "Product Recommendation AI",
-      desc: "Recommendation system using collaborative filtering.",
-      tech: "ML • Data Science"
+      title: "E-commerce Platform",
+      desc: "Full-stack shopping platform with cart, payments, and order management.",
+      tech: "Next.js • Node.js • Mysql • React-native"
+    },
+    {
+      title: "Treasury & Single Window Government Projects",
+      desc: "Worked on government digital platforms used for business approvals and treasury workflows.",
+      tech: "Government Systems • APIs"
+    },
+    {
+      title: "Aurora Jewellery Shopify Store",
+      desc: "Customized Shopify jewellery store with theme development and payment integration.",
+      tech: "Shopify • Liquid • E-commerce"
     }
   ];
 
@@ -24,9 +34,18 @@ export default function Home() {
     "Deep Learning",
     "LLM",
     "Next.js",
+    "React Native",
     "Node.js",
+    "PHP",
     "PostgreSQL",
-    "Data Analysis"
+    "Supabase",
+    "Firebase",
+    "Shopify",
+    "Razorpay",
+    "Stripe",
+    "Docker",
+    "Linux",
+    "Git"
   ];
 
   return (
@@ -43,14 +62,30 @@ export default function Home() {
         </p>
 
         <p className="mt-4 text-gray-500">
-          Building intelligent systems, automation tools, and AI-powered applications.
+          I build intelligent systems, automation tools, and AI-powered web applications.
         </p>
+
+        <div className="flex justify-center gap-6 mt-6">
+          <a
+            href="https://github.com/nitishdubey1194"
+            className="bg-white text-black px-5 py-2 rounded-lg"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://in.linkedin.com/in/nitishdubey1194"
+            className="border border-gray-700 px-5 py-2 rounded-lg"
+          >
+            LinkedIn
+          </a>
+        </div>
       </section>
 
       {/* SKILLS */}
-      <section className="max-w-4xl mx-auto mt-16">
+      <section className="max-w-4xl mx-auto mt-20">
         <h2 className="text-2xl font-semibold mb-6">
-          AI & Tech Stack
+          Tech Stack
         </h2>
 
         <div className="flex flex-wrap gap-3">
@@ -66,9 +101,9 @@ export default function Home() {
       </section>
 
       {/* PROJECTS */}
-      <section className="max-w-4xl mx-auto mt-16">
-        <h2 className="text-2xl font-semibold mb-6">
-          AI Projects
+      <section className="max-w-5xl mx-auto mt-20">
+        <h2 className="text-2xl font-semibold mb-8">
+          Projects
         </h2>
 
         <div className="grid md:grid-cols-2 gap-6">
@@ -82,13 +117,35 @@ export default function Home() {
                 {project.title}
               </h3>
 
-              <p className="text-gray-400 mb-3">
+              <p className="text-gray-400 mb-4">
                 {project.desc}
               </p>
 
-              <span className="text-sm text-gray-500">
+              <p className="text-sm text-gray-500 mb-4">
                 {project.tech}
-              </span>
+              </p>
+
+              <div className="flex gap-4">
+
+                {project.github && (
+                  <a
+                    href={project.github}
+                    className="text-sm bg-gray-800 px-3 py-1 rounded"
+                  >
+                    GitHub
+                  </a>
+                )}
+
+                {project.demo && (
+                  <a
+                    href={project.demo}
+                    className="text-sm border border-gray-700 px-3 py-1 rounded"
+                  >
+                    Live
+                  </a>
+                )}
+
+              </div>
 
             </div>
           ))}
@@ -96,8 +153,27 @@ export default function Home() {
         </div>
       </section>
 
+      {/* GITHUB STATS */}
+      <section className="text-center mt-24">
+        <h2 className="text-2xl font-semibold mb-8">
+          GitHub Stats
+        </h2>
+
+        <div className="flex flex-col items-center gap-6">
+
+          <img
+            src="https://github-readme-stats.vercel.app/api?username=nitishdubey1194&show_icons=true&theme=dark"
+          />
+
+          <img
+            src="https://github-readme-streak-stats.herokuapp.com/?user=nitishdubey1194&theme=dark"
+          />
+
+        </div>
+      </section>
+
       {/* CONTACT */}
-      <section className="text-center mt-20">
+      <section className="text-center mt-24">
         <h2 className="text-2xl font-semibold mb-4">
           Connect
         </h2>
@@ -105,7 +181,7 @@ export default function Home() {
         <div className="flex justify-center gap-6 text-gray-400">
           <a href="https://github.com/nitishdubey1194">GitHub</a>
           <a href="https://in.linkedin.com/in/nitishdubey1194">LinkedIn</a>
-          <a href="mailto: nitishdubey1194@gmail.com">Email</a>
+          <a href="mailto:nitishdubey1194@gmail.com">Email</a>
         </div>
       </section>
 
